@@ -15,21 +15,18 @@
       }
     
       h1 {
-        @apply mx-auto max-w-md text-center  text-white text-3xl   font-bold leading-tight ;
+        @apply mx-auto max-w-md text-center  text-white text-3xl font-bold leading-tight  ;
       }
     
       h2 {
-        @apply text-2xl font-bold text-white sm:text-3xl;
+        @apply text-xl font-bold text-white mb-2;
+      }
+      p{
+        @apply text-white;
       }
 }
 
-@layer components{
-.container{
-    @apply px-5 py-12 xs:p-10 max-w-7xl mx-auto flex flex-col relative z-10;
 
-}
-
-}
 
 @layer utilities{
     .text-gradient{
