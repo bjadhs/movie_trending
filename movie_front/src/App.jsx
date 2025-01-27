@@ -91,7 +91,7 @@ const App = () => {
             </header>
           {/* Main Content */}
             {/* Trending movies */}
-            {trending.length>0 && (
+            {
             <section >
               <h2>Trending Movies</h2>
               <div className='grid grid-cols-4 gap-4'>
@@ -112,7 +112,7 @@ const App = () => {
                 ))}
                 </div>
             </section>
-            )}
+            }
             {/* All Movies */}
             <section>
               <h2>All Movies</h2>
