@@ -8,7 +8,6 @@ export const getTrendingMovies = async () =>{
         appwriteConfig.collection,
         [Query.limit(5), Query.orderDesc('count')]    
         );
-        console.log(response);
         return response;
     }catch(err){
         console.error(err);
